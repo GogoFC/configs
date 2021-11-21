@@ -37,3 +37,9 @@ xterm*ScrollBar: true
 
 ! stop output to terminal from jumping down to bottom of scroll again
 xterm*scrollTtyOutput: false
+
+!To copy between xterm and other programs/documents/…
+! the line below adds copy function, paste already works
+!SHIFT+INSERT = PASTE
+!SHIFT+PRINTSCREEN = COPY
+XTerm*selectToClipboard: true
